@@ -1,0 +1,201 @@
+[2017-10-09 14:42:39] ==MEDIUM== Server BackendServer
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 14:42:59] ==MEDIUM== Server BackendServer
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 14:46:40] ==MEDIUM== Server BackendServer
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 14:49:16] ==MEDIUM== Server BackendServer
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 14:51:24] ==MEDIUM== Server BackendServer
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 14:51:34] ==MEDIUM== Server BackendServer
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 18:31:46] ==MEDIUM== Server BackendServer
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:12:01] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:15:18] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:16:48] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:16:53] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:18:24] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:19:23] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:42:14] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:45:51] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:52:20] ==MEDIUM== Server Backend 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:59:24] ==MEDIUM== Backend - 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 22:59:24] ==MEDIUM== Backend - 127.0.1.1
+Error connecting to database: Access denied for user 'root2'@'localhost' (using password: YES) in /home/gabriel/git/it490f17/Backend/login.php.inc on line 15
+[2017-10-09 23:15:49] ==MEDIUM== Backend - 127.0.1.1
+Error connecting to database:  in /home/gabriel/git/it490f17/Backend/login.php.inc on line 42
+[2017-10-09 23:16:36] ==MEDIUM== Backend - 127.0.1.1
+Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/login.php.inc:28
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(11): loginDB->validateLogin('aasdasd', 'asdasd')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(40): doLogin('aasdasd', 'asdasd')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(61): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 42
+[2017-10-09 23:23:04] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/login.php.inc:28
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(11): loginDB->validateLogin('aasdasd', 'asdasd')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(40): doLogin('aasdasd', 'asdasd')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(61): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 42
+[2017-10-20 13:14:21] ==HIGH== Backend - 127.0.1.1
+Error connecting to database: Unknown database 'login' in /home/gabriel/git/it490f17/Backend/login.php.inc on line 17
+[2017-10-20 13:52:22] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/login.php.inc:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(12): loginDB->validateLogin('gabriel', '12345')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(42): doLogin('gabriel', '12345')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(70): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 44
+[2017-10-20 13:59:00] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/login.php.inc:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(12): loginDB->validateLogin('gabriel', '12345')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(42): doLogin('gabriel', '12345')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(70): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 44
+[2017-10-20 14:18:48] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/login.php.inc:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(12): loginDB->validateLogin('gabriel', '12345')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(42): doLogin('gabriel', '12345')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(70): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 44
+[2017-10-20 15:04:46] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/login.php.inc:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(12): loginDB->validateLogin('gabriel', '12345')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(42): doLogin('gabriel', '12345')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(70): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 44
+[2017-10-20 15:20:11] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/login.php.inc:34
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(12): loginDB->validateLogin('gabriel', '12345')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(42): doLogin('gabriel', '12345')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(70): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 48
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function query() on null in /home/gabriel/git/it490f17/Backend/stock.php.inc:93
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 105
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function make_request() on null in /home/gabriel/git/it490f17/Backend/stock.php.inc:98
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 105
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function make_request() on null in /home/gabriel/git/it490f17/Backend/stock.php.inc:98
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 105
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to undefined function mysql_fetch_row() in /home/gabriel/git/it490f17/Backend/stock.php.inc:94
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 135
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to undefined function mysql_fetch_field() in /home/gabriel/git/it490f17/Backend/stock.php.inc:94
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 135
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_field() on boolean in /home/gabriel/git/it490f17/Backend/stock.php.inc:94
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 135
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/stock.php.inc:94
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 134
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/stock.php.inc:94
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 134
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/stock.php.inc:94
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(9): stocksDB->checkUserStock('joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 134
+[2017-10-23 22:37:01] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/stock.php.inc:41
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(11): stocksDB->buyStock('MSFT', 5, 'joe')
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 56
+[2017-10-24 01:42:34] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to undefined method mysqli::fetchAll() in /home/gabriel/git/it490f17/Backend/stock.php.inc:176
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(8): stocksDB->checkStocks()
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 183
+[2017-10-24 01:49:11] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Cannot use object of type mysqli_result as array in /home/gabriel/git/it490f17/Backend/stock.php.inc:180
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(8): stocksDB->checkStocks()
+#1 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 189
+[2017-10-24 02:33:30] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Cannot use object of type mysqli_result as array in /home/gabriel/git/it490f17/Backend/login.php.inc:40
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(12): loginDB->validateLogin('gabriel', '12345')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(42): doLogin('gabriel', '12345')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(70): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 50
+[2017-10-24 02:34:59] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Cannot use object of type mysqli_result as array in /home/gabriel/git/it490f17/Backend/login.php.inc:38
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/loginProc.php(12): loginDB->validateLogin('gabriel', '12345')
+#1 /home/gabriel/git/it490f17/Backend/loginProc.php(42): doLogin('gabriel', '12345')
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#3 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#4 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#5 /home/gabriel/git/it490f17/Backend/loginProc.php(70): rabbitMQServer->process_requests('requestProcesso...')
+#6 {main} in /home/gabriel/git/it490f17/Backend/login.php.inc on line 48
+[2017-11-07 10:00:59] ==SEVERE== Backend - 127.0.1.1
+Fatal Error connecting to database: Error: Call to a member function fetch_assoc() on boolean in /home/gabriel/git/it490f17/Backend/stock.php.inc:233
+Stack trace:
+#0 /home/gabriel/git/it490f17/Backend/stock.php.inc(128): stocksDB->updateStocks()
+#1 /home/gabriel/git/it490f17/Backend/stockProc.php(33): stocksDB->listStocks()
+#2 /home/gabriel/git/it490f17/Backend/stockProc.php(85): listStocks()
+#3 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#4 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#5 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#6 /home/gabriel/git/it490f17/Backend/stockProc.php(115): rabbitMQServer->process_requests('requestProcesso...')
+#7 {main} in /home/gabriel/git/it490f17/Backend/stock.php.inc on line 273

@@ -1,0 +1,23 @@
+1. Run this command on deployment server:
+
+sudo apt-get install openssh-server
+mkdir ~/.ssh
+
+2. Run this on DMZ, FE, BE
+
+ssh-keygen -t rsa
+
+--just press enter on each of the following prompts.
+
+ssh-add
+
+ssh-copy-id deployServerIPAddress
+
+-enter your users password
+
+-Test with:
+
+scp sourcefile deploySServerIPAddress:targetFile
+ 
+3. Deployment server should have authorized_keys file
+

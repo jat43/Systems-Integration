@@ -1,0 +1,86 @@
+#!/bin/bash
+
+	#saving the data types
+path=$1
+serverName=$(awk -F "=" '/serverName/ {print $2}' ../host.ini | tr -d ' ')
+
+
+prehome=$(pwd)
+cd ..
+prehome=$(pwd)
+tt="/temp"
+temp=$prehome$tt
+echo "temp: "$temp
+home=$prehome"/"$serverName"/"
+echo "home: "$home
+
+	#function to run all the processes
+run_Procs () {
+  past= pwd 
+  cd $home 
+  count=0
+  
+  for i in *Proc.php; do
+  [ -f "$i" ] || break
+  
+  gnome-terminal -e $home$i
+  count=$(($count+1))
+done
+cd $past
+}
+
+
+	#`copying the old version to temp`
+if [ -d $temp ]; 
+then
+	rm -R $temp
+fi
+mkdir $temp
+cp -R $home $temp
+if [ $? -ne 0  ];
+then
+  echo "Error copying origin to temp"
+  exit
+fi
+	#`killing the processes`
+
+for j in  $(ps aux | grep [P]roc.php | grep -v execProc.php | awk '{print $2}'); do
+  kill $j
+done
+rm -R $home"*"
+	#`grabbing the new version`
+scp $path $home
+if [ $? -ne 0 ];
+then
+  echo "SCP Error: check connect path"
+  exit
+fi
+filename=$(basename $path)
+echo $home$filename
+tar -xzf $home$filename 
+
+run_Procs
+runNum=$count
+countNum=$(ps aux | grep [P]roc.php | grep -vc execProc.php)
+echo "Procs to run: "$runNum
+echo "Procs running: "$countNum
+
+if [ $countNum -ne $runNum ];
+then
+  	echo "Processes not running : Rolling Back to previous version"
+
+	for j in  $(ps aux | grep [P]roc.php | awk '{print $2}'); do
+  		kill $j
+	done
+ 
+ 	 rm -Rf $home
+  	cp -R $temp"/"$serverName $prehome
+	rm -R $temp
+	 run_Procs
+  	exit
+fi
+rm -R $temp
+rm $home$filename
+echo "Installation Successful" 
+
+

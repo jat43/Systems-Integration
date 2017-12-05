@@ -1,0 +1,100 @@
+[2017-10-10 00:05:28] ==MEDIUM== Backend - 127.0.1.1
+Error with user authentication: Exception: something bad in /home/gabriel/git/it490f17/Backend/loginProc.php:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#1 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#3 /home/gabriel/git/it490f17/Backend/loginProc.php(72): rabbitMQServer->process_requests('requestProcesso...')
+#4 {main} in /home/gabriel/git/it490f17/Backend/loginProc.php on line 65
+[2017-10-10 00:07:20] ==MEDIUM== Backend - 127.0.1.1
+Error with user authentication: Exception: something bad in /home/gabriel/git/it490f17/Backend/loginProc.php:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#1 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#3 /home/gabriel/git/it490f17/Backend/loginProc.php(72): rabbitMQServer->process_requests('requestProcesso...')
+#4 {main} in /home/gabriel/git/it490f17/Backend/loginProc.php on line 65
+[2017-10-10 00:07:23] ==MEDIUM== Backend - 127.0.1.1
+Error with user authentication: Exception: something bad in /home/gabriel/git/it490f17/Backend/loginProc.php:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#1 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#3 /home/gabriel/git/it490f17/Backend/loginProc.php(72): rabbitMQServer->process_requests('requestProcesso...')
+#4 {main} in /home/gabriel/git/it490f17/Backend/loginProc.php on line 65
+[2017-10-10 00:07:49] ==MEDIUM== Backend - 127.0.1.1
+Error with user authentication: Exception: something bad in /home/gabriel/git/it490f17/Backend/loginProc.php:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#1 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#3 /home/gabriel/git/it490f17/Backend/loginProc.php(72): rabbitMQServer->process_requests('requestProcesso...')
+#4 {main} in /home/gabriel/git/it490f17/Backend/loginProc.php on line 65
+[2017-10-10 00:08:55] ==MEDIUM== Backend - 127.0.1.1
+Error with user authentication: Exception: something bad in /home/gabriel/git/it490f17/Backend/loginProc.php:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#1 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#3 /home/gabriel/git/it490f17/Backend/loginProc.php(72): rabbitMQServer->process_requests('requestProcesso...')
+#4 {main} in /home/gabriel/git/it490f17/Backend/loginProc.php on line 64
+[2017-10-10 00:24:59] ==MEDIUM== Backend - 127.0.1.1
+Error with user authentication: Exception: something bad in /home/gabriel/git/it490f17/Backend/loginProc.php:30
+Stack trace:
+#0 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(58): requestProcessor(Array)
+#1 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#2 /home/gabriel/git/it490f17/libraries/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#3 /home/gabriel/git/it490f17/Backend/loginProc.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#4 {main} in /home/gabriel/git/it490f17/Backend/loginProc.php on line 64
+[2017-10-11 17:08:03] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:08:04] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:08:04] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:08:05] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:08:05] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:11:15] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:11:16] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:11:17] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:20:24] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:20:25] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-11 17:20:25] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Function name must be a string in /home/gabriel/git/it490f17/Frontend/login.php:22
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 31
+[2017-10-24 02:48:54] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Call to undefined function sub_str() in /home/gabriel/git/it490f17/Frontend/login.php:25
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 43
+[2017-10-24 02:48:57] ==MEDIUM== Frontend - 127.0.1.1
+Error with user authentication: Error: Call to undefined function sub_str() in /home/gabriel/git/it490f17/Frontend/login.php:25
+Stack trace:
+#0 {main} in /home/gabriel/git/it490f17/Frontend/login.php on line 43
